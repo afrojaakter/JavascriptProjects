@@ -22,7 +22,7 @@ html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
-  position: all 0.06s ease;
+  transition: all 0.06s ease;
   width: 10rem;
   text-align: center;
   color: rgb(173, 83, 83);
@@ -33,6 +33,11 @@ html {
 kbd {
   display: block;
   font-size: 4rem;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #3b0641;
+  box-shadow: 0 0 10px #44083f;
 }
 .sound {
   font-size: 1.2rem;
